@@ -1,6 +1,10 @@
 ﻿using QueueArray;
+using QueueList;
 
-var queue = new QueueUsingArray<int>(5);
+//var queue = new QueueUsingArray<int>();
+//var queue = new QueueUsingList<int>();
+var queue = new Queue<int>();
+
 var option = "0";
 do
 {
